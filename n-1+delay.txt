@@ -1,0 +1,19 @@
+/не могу понять почему "#include <windows.h>" не работает :(
+
+#include <iostream>
+#include <string>
+#include <windows.h>
+
+using namespace std;
+ 
+int main()
+{
+    int n;
+    cin >> n;
+    for(int i = n;i>=1;i--)
+    {
+        cout << i << " ";
+        Sleep(1000);
+    }
+    return 0;
+}

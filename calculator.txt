@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Добро пожаловать в калькулятор, Вам доступны 4 простых арифметических действия сложени (+), вычитание (-), умножение () и деление (). Введите два числа и требуемое действие (число - число - действие)\n";
+    float a, b;
+    char c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    switch (c)
+    {
+    case '+': cout << a << c << b << "=" << a + b; break;
+    case '-': cout << a << c << b << "=" << a - b; break;
+    case '*': cout << a << c << b << "=" << a * b; break;
+    case '/': cout << a << c << b << "=" << a / b; break;
+    }
+    return 0;
+}
